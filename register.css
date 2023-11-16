@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 80px;
+    background-color:#edeaea;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+#header>div{
+    height: 60px;
+    width: 220px;
+    background-color:#edeaea;
+    margin:0px 0px 0px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    text-align: center;
+    font-weight:500;
+}
+.skin2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(11, 121, 121);
+}
+.skin{
+    margin-left:32px;
+}
+
+/* css for main div*/
+#mainDiv{
+    margin:50px 0px 0px 350px;
+    width: 600px;
+    height: 800px;
+    background-color:#fbf9f9;
+    /* padding-left:200px; */
+    /* justify-content: center; */
+}
+.social{
+    width:220px;
+    height: 30px
+}
+.common_property{
+    margin-left:20px;
+    
+    
+    
+}
+input{
+    width:500px;
+    height: 43px;
+    margin-left:20px;
+    border-radius: 5px;
+}
+.continue{
+    height: 20px;
+    width: 100px;
+    margin-left:200px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0);
+    
+}
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin-left:20px;
+    color: rgba(32, 33, 33, 0.8);
+}
+.last_div{
+
+    background-color: rgba(132, 132, 132, 0.142);
+}

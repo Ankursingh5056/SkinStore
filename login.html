@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form id="myform">
+    <input type="email" placeholder="email" id="email">
+    <br>
+    <input type="password" placeholder="password" id="password" ><button>submit</button></form>
+<script src="./login.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <script>
+    let myform = document.querySelector("#myform");
+let Email = document.querySelector("#email");
+let PASS = document.querySelector("#password");
+
+myform.addEventListener("submit", function (event) {
+    event.preventDefault();
+    let userDetails = {
+        Email: Email.value,
+        pass: PASS.value,
+    };
+    let savedDetails = JSON.parse(localStorage.getItem("userDetails")); // Corrected the key name
+    console.log(savedDetails);
+    if ( userDetails.Email === savedDetails.Email && userDetails.pas === savedDetails.pass) {
+        window.location.replace("./index.html");
+    } else {
+        alert("Wrong login or password.");
+    }
+});
+</script> -->
