@@ -111,7 +111,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/skin-store-clone.git
+git clone https://incredible-dragon-67f7b1.netlify.app/
 Navigate to the project directory:
 
 bash
